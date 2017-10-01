@@ -10,10 +10,9 @@
 	<title>CMSJ - INTRANET</title>
 </head>
 <body>
-
 	<div id="wrapper">
 
-		<header class="container header col-lg-12 fixed-top">
+		<header class="container header col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12">
 			<section class="header-logo col-lg-3">
 				<a href=""><img src="imgs/sao-jose-logo.png" class="img-responsive col-lg-12"></a>
 			</section>
@@ -35,10 +34,33 @@
 		</header>
 		<!-- Fim Header -->
 
+		<main class="conteudo col-lg-12">
+			<section class="post-panel col-lg-12">
+				<div class="post-title col-lg-12">
+					<p>07/12/1990</p>
+					<h1>Titulo da Postagem</h1>
+					<h3>Subtitulo</h3>
+				</div>
 
-		<main class="conteudo row col-lg-12">
-			<section class="conteudo-principal">
-				<h1>Intranet CMSJ</h1>
+				<div class="post-content col-lg-12">
+					<p class="content">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<br>
+						<br>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				
 			</section>
 
 		</main> 
@@ -56,7 +78,7 @@
 					<img src="/cmsj/public/assets/images/youtube-icon.png" class="img-responsive">
 				</section>
 			</section>
-			<img src="/cmsj/public/assets/images/sao-jose-footer.png" class="img-responsive img-footer-logo">
+			<img src="imgs/sao-jose-footer.png" class="img-responsive img-footer-logo">
 			<nav>
 				<ul class="nav nav-stacked nav-pills">
 					<li>PRAÇA ARNOLDO DE SOUZA, 38 - CENTRO - SÃO JOSÉ - SC</li>

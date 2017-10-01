@@ -2,6 +2,7 @@ body {
 	background:url(../imgs/back.jpg);
 	background-size: cover;
 	background-position: center center;
+	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
 }
@@ -108,16 +109,46 @@ body {
 
 }
 
-.conteudo-principal h1{	
-	background-color: black;
+.conteudo {
+	margin: 0 !important;
+	padding: 0px !important;
+	margin-bottom: 80px !important;
+}
+
+.post-panel {
+	margin:0px !important;
+	padding: 0px !important;
+	height: auto;
+	position: relative;
+	top:80px;
+
+}
+.post-title{	
+	background-color: #252525;
 	opacity: 0.8;
-	line-height: 300px;
+	height: auto;
 	color: white;
 	text-align: center;
 	padding: 0;
 	position: relative;
 	width: 100%;
-	margin-top: 80px;
+	margin-right: 0;
+	margin-left: 0;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.post-content {
+	background-color: white;
+	height: 500px;
+	padding-top: 80px;
+	padding-right: 200px !important;
+	padding-left: 200px !important;
+	text-align: justify;
+}
+
+.post-content .content {
+	font-size: 20px;
 }
 
 .footer {
