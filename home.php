@@ -41,7 +41,7 @@
 
 										<img src="https://s.profissionaisti.com.br/wp-content/uploads/2014/02/gerenciamento-aquisicoes-projetos-ti.jpg" class="img-responsive">
 
-										<h2 class="text-center news-title col-lg-12">Noticia de hoje em dia</h2>
+										<h2 class="text-center news-title col-lg-12" style="">Titulo da Noticia: Ola Mundo, Ola Mundo e Ola Mundo</h2>
 									</figure>
 								</a>
 

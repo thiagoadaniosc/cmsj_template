@@ -20,10 +20,10 @@
 			<section class="menu-top collapse navbar-collapse">
 				<ul class="navbar nav nav-pills">
 					<li class="nav-item"><a href="">PRINCIPAL</a></li>
+					<li class="nav-item"><a href="">INSTITUCIONAL</a></li>
 					<li class="nav-item"><a href="">NOTICIAS</a></li>
 					<li class="nav-item"><a href="">INFORMATIVOS</a></li>
-					<li class="nav-item"><a href="">SUPORTE</a></li>
-					<li class="nav-item"><a href="">FORMULARIOS</a></li>
+					<li class="nav-item"><a href="">ARQUIVOS</a></li>
 					<li class="nav-item"><a href="">GUIA TELEFÔNICO</a></li>
 					<li class="nav-item">
 						<form class="form-group form-inline">

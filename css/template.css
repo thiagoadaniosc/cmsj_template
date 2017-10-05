@@ -59,7 +59,7 @@ body {
 
 .input-busca {
 	border-radius: 0 !important;
-	width: 50px;
+	width: 130px !important;
 	background-color: #2F5F94 !important;
 	border: 0 !important;
 	font-size: 16px;
@@ -67,7 +67,7 @@ body {
 	box-shadow: 0 0 0 0;
 	border: 0 none;
 	outline: 0;
-	transition: 2s;
+	transition: 1s;
 	color:white !important;
 	padding-right: 30px !important;
 }
@@ -83,6 +83,7 @@ body {
 	box-shadow: 0 0 0 0 !important;
 	color: black !important;
 	background-color: white !important;
+	width: 200px !important;
 
 }
 
@@ -326,12 +327,20 @@ body {
 
 .news-title {
 	font-size: 16px !important;
-	background-color: rgba(0,0,0,0.8);
+	/*background-color: rgba(0,0,0,0.8);*/
+	background-color: rgba(9,25,38,.5);
+	border-left: 4px solid #35539F;
 	color: white;
 	z-index: 1;
-	margin-top:-100px;
-	line-height: 50px;
+	/*margin-top:-150px;*/
 	font-family: 'Open Sans', sans-serif;
+	/*min-height: 150px;*/
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: auto;
+	line-height: 30px;
+	margin-bottom: 0;
 
 }
 .home-last-info-rh {
