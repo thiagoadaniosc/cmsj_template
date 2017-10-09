@@ -178,10 +178,15 @@ body {
 .home-welcome h1{
 	font-size: 20px !important;
 	font-family: 'Open Sans', sans-serif;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+	font-family: opensans,opensans-bastian,Arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 .home-welcome span {
 	font-weight: bold;
+
 }
 
 .home-welcome p {
@@ -189,6 +194,7 @@ body {
 	font-size: 15px;
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 .home-welcome .welcome-btn-more-info {
@@ -310,6 +316,18 @@ body {
 	overflow: hidden;
 	height: 250px;
 	background-color: black;
+}
+
+.home-last-news-tag {
+	background-color: transparent;
+	position: absolute;
+	color: white;
+	top:10px;
+	left: 20px;
+	border-bottom: 3px solid #35539F;
+	z-index: 2;
+	border-radius: 1px;
+	text-transform: uppercase;
 }
 
 .home-last-news img {
