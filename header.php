@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
+	<link rel="icon" href="imgs/sao-jose-icon.png" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -19,12 +20,12 @@
 			</section>
 			<section class="menu-top collapse navbar-collapse">
 				<ul class="navbar nav nav-pills">
-					<li class="nav-item"><a href="">PRINCIPAL</a></li>
+					<li class="nav-item"><a href="home.php">PRINCIPAL</a></li>
 					<li class="nav-item"><a href="">INSTITUCIONAL</a></li>
-					<li class="nav-item"><a href="">NOTICIAS</a></li>
-					<li class="nav-item"><a href="">INFORMATIVOS</a></li>
+					<li class="nav-item"><a href="single-noticias.php">NOTICIAS</a></li>
+					<li class="nav-item"><a href="single.php">INFORMATIVOS</a></li>
 					<li class="nav-item"><a href="">ARQUIVOS</a></li>
-					<li class="nav-item"><a href="">GUIA TELEFÔNICO</a></li>
+					<li class="nav-item"><a href="single.php">GUIA TELEFÔNICO</a></li>
 					<li class="nav-item">
 						<form class="form-group form-inline">
 							<input class="form-control input-busca" type="text" name="" placeholder="Pesquisar...">
