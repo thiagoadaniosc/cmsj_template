@@ -1,7 +1,9 @@
 <?php include 'header.php'; ?>
 <main class="conteudo col-lg-12" style="padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important">
 	<section class="single-noticias home-last-news col-lg-12">
-		<h1>Noticias</h1>
+		<div class="row">
+			<h1 class="col-lg-2">Noticias</h1> 
+		</div>
 
 		<?php for ($i=0; $i < 9;$i++) : ?>
 			<div class="col-lg-4" style="padding: 2px">
@@ -11,6 +13,11 @@
 
 							<span class="home-last-news-tag">
 								politica
+							</span>
+
+							<span class="single-noticias-date">
+								<i class="fa fa-calendar"></i>
+								10/10/2017 
 							</span>
 
 							<img src="https://s.profissionaisti.com.br/wp-content/uploads/2014/02/gerenciamento-aquisicoes-projetos-ti.jpg" class="img-responsive">
