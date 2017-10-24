@@ -7,11 +7,11 @@
 
 			<p><i class="fa fa-calendar"></i> <?php echo get_the_date( 'd/m/Y' ); ?></p>
 			<h1><?php the_title(); ?></h1>
-			<h3><?php the_excerpt(); ?></h3>
-		</div>
+			<h3 style="font-size: 20px;text-align: center;letter-spacing: -.80px;"><?php the_excerpt(); ?></h3>
+	</div>
 
-		<div class="post-content col-lg-12">
-			<?php the_content(); ?>
+	<div class="post-content col-lg-12">
+		<?php the_content(); ?>
 			<!-- <p class="content">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -29,9 +29,9 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		-->
-		</div>
+	</div>
 
-	</section>
+</section>
 
 </main> 
 

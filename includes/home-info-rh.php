@@ -24,6 +24,7 @@ $rh_posts = $rh_query->get_posts();
 			<div class="thumbnail col-lg-12" style="border:0">
 				<img src="<?= $post_thumbnail_url ?>" class="col-lg-4">
 				<a class="last-info-link-rh" href="<?= get_post_permalink($post->ID); ?>">
+					<h1 class="col-lg-8"><?= $post->post_title ?></h1>
 					<p class="col-lg-8"><?= $post->post_excerpt ?></p>
 				</a>
 			</div>

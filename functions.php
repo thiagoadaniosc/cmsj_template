@@ -117,9 +117,8 @@ function wordpress_pagination() {
 	) );
 }
 
-
 add_action( 'init', 'post_type_noticias');
 add_action( 'init', 'post_type_informatica');
 add_action( 'init', 'post_type_adm');
 add_action( 'init', 'post_type_rh');
-add_theme_support( 'post-thumbnails', array('noticias', 'administracao', 'informatica', 'administracao', 'rh') );
+add_theme_support( 'post-thumbnails', array('noticias', 'informatica', 'administracao', 'rh'));

@@ -5,7 +5,7 @@ $ti_posts = $ti_query->get_posts();
 ?>					
 <div class="row last-info-ti-title">
 	<h1 class="col-lg-10" style="">Informatica
-		<i class="fa fa-code" style="color:#8247B1; position:absolute;bottom: 0px; margin-left: 5px;"></i>
+		<i class="fa fa-code" style="color:#3C59B7; position:absolute;bottom: 0px; margin-left: 5px;"></i>
 	</h1>
 	<a  class="col-lg-2 text-right" href="informatica" style="margin-top: 20px">Informática <i class="fa fa-angle-right"></i></a>
 
@@ -25,6 +25,7 @@ $ti_posts = $ti_query->get_posts();
 			<div class="thumbnail col-lg-12" style="border:0">
 				<img src="<?= $post_thumbnail_url ?>" class="col-lg-4">
 				<a class="last-info-link-ti" href="<?= get_post_permalink($post->ID); ?>">
+					<h1 class="col-lg-8"><?= $post->post_title ?></h1>
 					<p class="col-lg-8"><?= $post->post_excerpt ?></p>
 				</a>
 			</div>
