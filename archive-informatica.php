@@ -2,7 +2,7 @@
 <main class="conteudo col-lg-12" style="padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important">
 	<section class="single-informatica col-lg-12">
 		<div class="row">
-			<h1 class="col-lg-12 text-center">Informatica</h1> 
+			<h1 class="col-lg-12 text-center">Informática</h1> 
 		</div>
 
 		<?php while (have_posts()): 

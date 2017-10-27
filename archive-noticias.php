@@ -5,7 +5,7 @@
 <main class="conteudo col-lg-12" style="padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important">
 	<section class="single-noticias home-last-news col-lg-12">
 		<div class="row">
-			<h1 class="col-lg-2">Noticias</h1> 
+			<h1 class="col-lg-2">Notícias</h1> 
 		</div>
 
 		<?php while (have_posts()):

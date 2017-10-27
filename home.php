@@ -10,7 +10,7 @@
 			
 				 ?>
 				<h1 style="color: white; font-size: 15px;">
-					Bem vindo á nova
+					Bem vindo a nova
 					<br/>
 					<span>Intranet</span> da <span>Câmara Municipal de São José</span> 
 				</h1>
