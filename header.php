@@ -19,7 +19,7 @@
 
 		<header class="container header col-lg-12 col-md-12 col-sm-12 col-xl-12 col-xs-12">
 			<section class="header-logo col-lg-3">
-				<a href="http://info.cmsj.sc.gov.br"><img src="<?= get_template_directory_uri(); ?>/imgs/sao-jose-logo.png" class="img-responsive col-lg-9"></a>
+				<a href="http://intranet.cmsj.sc.gov.br"><img src="<?= get_template_directory_uri(); ?>/imgs/sao-jose-logo.png" class="img-responsive col-lg-9"></a>
 			</section>
 			<section class="menu-top">
 				<?php  wp_nav_menu( array( 'theme_location' => 'menu_topo', 'menu_class' => 'navbar nav nav-pills'
