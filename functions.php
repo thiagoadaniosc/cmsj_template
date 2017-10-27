@@ -3,6 +3,8 @@
 add_post_type_support( 'page', 'excerpt' );
 
 
+
+
 //  Registando Menus
 register_nav_menus(
 	array(
@@ -23,6 +25,8 @@ register_sidebar( array(
 );
 
 //----------------------
+
+
 
 function post_type_noticias(){
 	$labels = array(
@@ -116,6 +120,14 @@ function wordpress_pagination() {
 		'total' => $wp_query->max_num_pages
 	) );
 }
+
+
+function my_forcelogin_redirect() {
+	return site_url( 'https://info.cmscj.sc.gov.br' );
+}
+add_filter('v_forcelogin_redirect', 'my_forcelogin_redirect', 10, 1);
+
+add_filter('login_redirect', 'my_forcelogin_redirect', 10, 1);
 
 add_action( 'init', 'post_type_noticias');
 add_action( 'init', 'post_type_informatica');
