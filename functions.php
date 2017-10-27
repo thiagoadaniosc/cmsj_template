@@ -123,7 +123,7 @@ function wordpress_pagination() {
 
 
 function my_forcelogin_redirect() {
-	return site_url( 'https://info.cmscj.sc.gov.br' );
+	return site_url( '/' );
 }
 add_filter('v_forcelogin_redirect', 'my_forcelogin_redirect', 10, 1);
 
