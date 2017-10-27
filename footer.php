@@ -26,7 +26,10 @@
 
 </footer>
 
-<!-- Fim Footer -->
+<!-- Fim Footer -
+Contruido e Desenvolvido por: Thiago Adanio Scheidt
+
+-->
 
 </body>
 

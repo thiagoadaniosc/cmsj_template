@@ -53,7 +53,7 @@
 
 		</div>
 
-		<section class="home-post-sidebar col-lg-4" style="float:right;padding:0;padding-right: 80px; min-height: 800px;">
+		<section class="home-post-sidebar col-lg-4 col-md-12 col-xl-12 col-xs-12" style="float:right;padding:0;padding-right: 80px; min-height: 800px;">
 
 			<section class="sidebar-suporte">
 				<div class="suporte-row col-lg-12">

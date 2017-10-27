@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="<?= get_template_directory_uri(); ?>/imgs/sao-jose-icon.png" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
@@ -20,7 +21,7 @@
 			<section class="header-logo col-lg-3">
 				<a href="http://127.0.0.1/wordpress/"><img src="<?= get_template_directory_uri(); ?>/imgs/sao-jose-logo.png" class="img-responsive col-lg-9"></a>
 			</section>
-			<section class="menu-top collapse navbar-collapse">
+			<section class="menu-top">
 				<?php  wp_nav_menu( array( 'theme_location' => 'menu_topo', 'menu_class' => 'navbar nav nav-pills'
 				) ); ?>
 				<!-- 
@@ -50,7 +51,7 @@
 
 
 				</ul>
-				-->
-			</section>
-		</header>
-		<!-- Fim Header -->
+			-->
+		</section>
+	</header>
+	<!-- Fim Header -->

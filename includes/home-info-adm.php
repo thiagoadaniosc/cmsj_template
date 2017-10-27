@@ -22,7 +22,7 @@ $adm_posts = $adm_query->get_posts();
 		endif; 
 
 		?>
-		<div class="col-lg-6" style="">
+		<div class="col-lg-6 col-md-12" style="">
 			<div class="thumbnail col-lg-12" style="border:0">
 				<img src="<?= $post_thumbnail_url; ?>" class="col-lg-4">
 				<a class="last-info-link-adm" href="<?= get_post_permalink($post->ID); ?>">
