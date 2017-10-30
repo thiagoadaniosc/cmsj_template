@@ -106,6 +106,25 @@ function post_type_rh(){
 	);
 }
 
+function post_type_galeria(){
+	$labels = array(
+		'name' => 'Galeria de Imagens',
+		'singular_name' => 'Galeria de Imagens',
+		'add_new_item' => 'Adicionar nova galeria de imagens',
+		'add_new' => 'Adicionar nova galeria de imagens'
+	);
+	register_post_type( 'galeria', 
+		array(
+			'labels' => $labels, 
+			'public' => true,
+			'menu_icon' => 'dashicons-format-gallery',
+			'has_archive' => true,
+			'supports' => ['title', 'thumbnail', 'excerpt'],
+		) 
+
+	);
+}
+
 function wordpress_pagination() {
 	global $wp_query;
 
@@ -133,4 +152,5 @@ add_action( 'init', 'post_type_noticias');
 add_action( 'init', 'post_type_informatica');
 add_action( 'init', 'post_type_adm');
 add_action( 'init', 'post_type_rh');
+add_action( 'init', 'post_type_galeria');
 add_theme_support( 'post-thumbnails', array('noticias', 'informatica', 'administracao', 'rh'));

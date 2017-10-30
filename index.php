@@ -11,6 +11,7 @@
 	</div>
 
 	<div class="post-content col-lg-12">
+		<!-- <?php the_post_thumbnail('large'); ?>-->
 		<?php the_content(); ?>
 			<!-- <p class="content">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
