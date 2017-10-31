@@ -11,7 +11,7 @@ $i = 0;
 		<i class="fa fa-plus" style="color:white; font-size: 20px; position:absolute;bottom: 8px; margin-left: 8px;"></i>
 	</h1>
 	<a  class="col-lg-2 text-right" href="noticias" style="margin-top: 20px; color:white; line-height: 40px;background-color:#3267AA; border-bottom:4px solid #265B9D ">
-	Mais Noticias</a>
+	Mais Notícias</a>
 	
 </div>
 <!-- LAST NEWS - ULTIMAS NOTICIAS - Principal -->

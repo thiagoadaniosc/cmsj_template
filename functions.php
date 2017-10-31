@@ -42,8 +42,9 @@ function post_type_noticias(){
 			'menu_icon' => 'dashicons-admin-site',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-			'taxonomies' => array('post_tag')
-		) 
+			'taxonomies' => array('post_tag'),
+			'capability_type' => array('noticias', 'noticia')    
+		)
 
 	);
 }

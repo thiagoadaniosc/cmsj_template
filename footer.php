@@ -15,10 +15,10 @@
 		<section class="social-networks" style="float:right;">
 			<h2>REDES SOCIAIS</h2>
 			<section class="social-networks-icons">
-				<img src="<?= get_template_directory_uri(); ?>/imgs/facebook-icon.png" class="img-responsive">
-				<img src="<?= get_template_directory_uri(); ?>/imgs/twitter-icon.png" class="img-responsive">
-				<img src="<?= get_template_directory_uri(); ?>/imgs/instagram-icon.png" class="img-responsive">
-				<img src="<?= get_template_directory_uri(); ?>/imgs/youtube-icon.png" class="img-responsive">
+				<a href=""><img src="<?= get_template_directory_uri(); ?>/imgs/facebook-icon.png" class="img-responsive"></a>
+				<a href=""><img src="<?= get_template_directory_uri(); ?>/imgs/twitter-icon.png" class="img-responsive"></a>
+				<a href=""><img src="<?= get_template_directory_uri(); ?>/imgs/instagram-icon.png" class="img-responsive"></a>
+				<a href=""><img src="<?= get_template_directory_uri(); ?>/imgs/youtube-icon.png" class="img-responsive"></a>
 			</section>
 		</section>
 	</section>
