@@ -63,6 +63,7 @@ function post_type_informatica(){
 			'menu_icon' => 'dashicons-laptop',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+			'capability_type' => array('informatica', 'informatica') 
 		) 
 
 	);
@@ -82,6 +83,7 @@ function post_type_adm(){
 			'menu_icon' => 'dashicons-groups',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+			'capability_type' => array('administracao', 'administracao') 
 		) 
 
 	);
@@ -102,6 +104,7 @@ function post_type_rh(){
 			'menu_icon' => 'dashicons-universal-access-alt',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+			'capability_type' => array('rh', 'rh') 
 		) 
 
 	);
@@ -121,6 +124,7 @@ function post_type_galeria(){
 			'menu_icon' => 'dashicons-format-gallery',
 			'has_archive' => true,
 			'supports' => ['title', 'thumbnail', 'excerpt'],
+			'capability_type' => array('galeria', 'galeria') 
 		) 
 
 	);
