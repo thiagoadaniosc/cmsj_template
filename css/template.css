@@ -597,25 +597,27 @@ body {
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-bottom: 20px;
+	padding-top: 20px !important;
 	margin-bottom: 20px;
 
 }
 
-.single-noticias h1 {
-	/**text-align: center;*/
-	font-size: 30px;
+.single-noticias-title{
+	background: rgba(46, 107, 172, .2);
+	padding: 0px !important;
+	margin: 0px !important;
+	font-size: 40px;
 	font-family: "Playfair Display";
-	line-height: 32px; 
+	line-height: 150px; 
 	top: 5px;
 	left: 10px;
 	font-weight: 900;
-	font-style: italic;
 	letter-spacing: -1px;
 	margin-bottom: 30px;
-	margin-top: 30px;
 	padding-bottom: 10px;
 	padding-left: 0;	
-	color: #35539F;
+	color: white;
+	text-transform: uppercase;
 }
 
 .single-noticias h1:first-letter {
@@ -655,6 +657,25 @@ body {
 	padding-right: 200px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+	padding-top: 30px;
+}
+
+.single-informatica-title-header {
+	background: rgba(60, 89, 183, .4);
+	padding: 0px !important;
+	margin: 0px !important;
+	font-size: 40px;
+	font-family: "Playfair Display";
+	line-height: 150px; 
+	top: 5px;
+	left: 10px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	padding-left: 0;	
+	color: white;
+	text-transform: uppercase;
 }
 
 .single-informatica h1 {
@@ -754,6 +775,25 @@ body {
 	padding-right: 200px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+	padding-top: 30px;
+}
+
+.single-administracao-title-header {
+	background: rgba(0,0 ,0, .2);
+	padding: 0px !important;
+	margin: 0px !important;
+	font-size: 40px;
+	font-family: "Playfair Display";
+	line-height: 150px; 
+	top: 5px;
+	left: 10px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	padding-left: 0;	
+	color: white;
+	text-transform: uppercase;
 }
 
 .single-administracao h1 {
@@ -852,6 +892,26 @@ body {
 	padding-right: 200px;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+	padding-top: 30px;
+}
+
+
+.single-rh-title-header {
+	background: rgba(223, 86, 86, .2);
+	padding: 0px !important;
+	margin: 0px !important;
+	font-size: 40px;
+	font-family: "Playfair Display";
+	line-height: 150px; 
+	top: 5px;
+	left: 10px;
+	font-weight: 900;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+	padding-left: 0;	
+	color: white;
+	text-transform: uppercase;
 }
 
 .single-rh h1 {

@@ -1,9 +1,7 @@
 <?php get_header(); ?>
-<main class="conteudo col-lg-12" style="padding-top: 20px !important; padding-left: 20px !important; padding-right: 20px !important">
-	<section class="single-rh col-lg-12">
-		<div class="row">
-			<h1 class="col-lg-12 text-center">Recursos Humanos</h1> 
-		</div>
+<main class="conteudo col-lg-12">
+	<h1 class="single-rh-title-header text-center">Recursos Humanos</h1> 
+	<section class="single-rh col-lg-12">		
 
 		<?php while (have_posts()): 
 		the_post();
