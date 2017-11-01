@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=  get_template_directory_uri() ?>/css/template.css">
+	<link rel="stylesheet" type="text/css" href="<?=  get_template_directory_uri() ?>/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" href="<?= get_template_directory_uri() ?>/js/bootstrap.min.js"></script>
 	<title>CMSJ - INTRANET</title>
