@@ -10,9 +10,11 @@
 			
 				 ?>
 				<h1 style="color: white; font-size: 15px;">
-					Bem vindo a nova
+					<?= $welcome_post[0]->post_title   ?>
+					<!--Bem vindo a nova
 					<br/>
 					<span>Intranet</span> da <span>Câmara Municipal de São José</span> 
+					-->
 				</h1>
 
 				<p class="col-lg-12">
@@ -46,9 +48,7 @@
 				<section> <!-- Include Informativo RH -->
 					<?php include 'includes/home-info-rh.php'; ?>
 				</section>
-
-	
-
+				
 			</div>
 
 		</div>

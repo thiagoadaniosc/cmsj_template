@@ -676,6 +676,7 @@ body {
 	padding-left: 0;	
 	color: white;
 	text-transform: uppercase;
+
 }
 
 .single-informatica h1 {
@@ -726,6 +727,7 @@ body {
 	line-height: 15px;
 	color:  #3C59B7;
 	transition: 1s;
+	margin-top: 10px;
 }
 
 .single-informatica-title:hover {
@@ -844,6 +846,7 @@ body {
 	line-height: 15px;
 	color:  black;
 	transition: 1s;
+	margin-top: 10px;
 }
 
 .single-administracao-title:hover {
@@ -962,6 +965,7 @@ body {
 	line-height: 15px;
 	color:  #DF5656;
 	transition: 1s;
+	margin-top: 10px;
 }
 
 .single-rh-title:hover {
