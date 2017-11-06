@@ -444,10 +444,12 @@ body {
 	padding: 0px !important;
 	overflow: hidden !important;
 	background-color: black !important;
+	height: 400px;
 }
 
 .home-last-news figure img{
 	width: 100% !important; 
+	height: 400px;
 }
 
 .home-last-news-tag {

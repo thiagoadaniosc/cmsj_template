@@ -34,9 +34,9 @@ $i = 0;
 
 		<?php if ($i == 0) : ?>
 			<div class="col-lg-12" style="padding: 2px">
-				<div class="thumbnail col-lg-12" style="border:0; height: 400px; padding: 0; margin-bottom:0;">
+				<div class="thumbnail col-lg-12" style="border:0; height: auto; padding: 0; margin-bottom:0;">
 					<a class="home-last-news-link" href="<?= get_post_permalink($post->ID); ?>">
-						<figure class="col-lg-12" style="height: 400px; width:100%">
+						<figure class="col-lg-12" style="height: auto; width:100%">
 
 							<span class="home-last-news-tag">
 								<?= $post_tag ?>
@@ -47,9 +47,9 @@ $i = 0;
 								<?php echo get_the_date( 'd/m/Y' ); ?>
 							</span>
 
-							<img src="<?= $post_thumbnail_url;  ?>" class="img-responsive" style="height:400px;  width:100%">
+							<img src="<?= $post_thumbnail_url;  ?>" class="img-responsive" style="height:600px; max-height: 600px;  width:100%">
 
-							<h2 class="text-center news-title col-lg-12" style="font-size: 30px !important; padding-top: 10px; padding-bottom: 10px;    letter-spacing: -2px!important; font-weight: bold;text-shadow: 0 1px 3px rgba(0,0,0,0.8);font-family: opensans,opensans-bastian,Arial,sans-serif;
+							<h2 class="text-center news-title col-lg-12" style="font-size: 30px !important; padding-top: 10px; padding-bottom: 10px; letter-spacing: -2px!important; font-weight: bold;text-shadow: 0 1px 3px rgba(0,0,0,0.8);font-family: opensans,opensans-bastian,Arial,sans-serif;
 							-webkit-font-smoothing: antialiased;">
 
 							<?php echo $post->post_title; ?>
