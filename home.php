@@ -19,6 +19,7 @@
 
 				<p class="col-lg-12">
 					<?= $welcome_post[0]->post_excerpt ?>
+					<?php wp_reset_postdata(); ?>
 				<!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -66,13 +67,16 @@
 
 			<?php get_sidebar(array('name' => 'home_sidebar')); ?>
 			
-
+			<?php 
+			$tempo_query = new WP_Query(array("pagename" => 'tempo'));
+			$tempo_post = $tempo_query->get_posts(); 
+			?>
 			<div class="text-center" style="overflow: hidden !important;">
-				<h4 class="widgettitle-tempo text-center">Previsão do Tempo</h4>
-				<div id="cont_a6a8de16d0d8a692cbf22824fccd6ffa"><script type="text/javascript" async src="https://www.tempo.com/wid_loader/a6a8de16d0d8a692cbf22824fccd6ffa"></script></div>
+				<h4 class="widgettitle-tempo text-center"><?= $tempo_post[0]->post_title ?></h4>
+				<?= $tempo_post[0]->post_content ?>
+				<?php wp_reset_postdata(); ?>
 			</div>
 			<!-- 
-
 			<section>
 				<h4 class="text-center birthday"><i class="fa fa-birthday-cake"> </i> Aniversariantes do Dia</h4>
 			</section>
