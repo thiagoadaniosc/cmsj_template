@@ -65,6 +65,12 @@
 			</section>
 
 			<?php get_sidebar(array('name' => 'home_sidebar')); ?>
+			
+
+			<div class="text-center" style="overflow: hidden !important;">
+				<h4 class="widgettitle-tempo text-center">Previsão do Tempo</h4>
+				<div id="cont_a6a8de16d0d8a692cbf22824fccd6ffa"><script type="text/javascript" async src="https://www.tempo.com/wid_loader/a6a8de16d0d8a692cbf22824fccd6ffa"></script></div>
+			</div>
 			<!-- 
 
 			<section>
