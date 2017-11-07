@@ -639,8 +639,13 @@ body {
 	/*color: black;*/
 }
 
+.single-noticias figure {
+	height: 300px !important;
+}
+
 .single-noticias figure img {
 	width: 100% !important;
+	height: 300px;
 }
 
 .noticias-noticia {
