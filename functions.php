@@ -43,7 +43,17 @@ function post_type_noticias(){
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
 			'taxonomies' => array('post_tag'),
-			'capability_type' => array('noticias', 'noticia')    
+			'capabilities' => array(
+				'edit_post'          => 'edit_noticia', 
+				'read_post'          => 'read_noticia', 
+				'delete_post'        => 'delete_noticia', 
+				'edit_posts'         => 'edit_noticia', 
+				'edit_others_posts'  => 'edit_others_noticia', 
+				'publish_posts'      => 'publish_noticia',       
+				'read_private_posts' => 'read_private_noticia', 
+				'create_posts'       => 'edit_noticia', 
+			),
+			//'capability_type' => array('noticias', 'noticia')
 		)
 
 	);
@@ -63,7 +73,17 @@ function post_type_informatica(){
 			'menu_icon' => 'dashicons-laptop',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-			'capability_type' => array('informatica', 'informatica') 
+			'capabilities' => array(
+				'edit_post'          => 'edit_informatica', 
+				'read_post'          => 'read_informatica', 
+				'delete_post'        => 'delete_informatica', 
+				'edit_posts'         => 'edit_informatica', 
+				'edit_others_posts'  => 'edit_others_informatica', 
+				'publish_posts'      => 'publish_informatica',       
+				'read_private_posts' => 'read_private_informatica', 
+				'create_posts'       => 'edit_informatica', 
+			),
+			//'capability_type' => array('informatica', 'informatica') 
 		) 
 
 	);
@@ -83,12 +103,22 @@ function post_type_adm(){
 			'menu_icon' => 'dashicons-groups',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-			'capability_type' => array('administracao', 'administracao') 
+			'capabilities' => array(
+				'edit_post'          => 'edit_administracao', 
+				'read_post'          => 'read_administracao', 
+				'delete_post'        => 'delete_administracao', 
+				'edit_posts'         => 'edit_administracao', 
+				'edit_others_posts'  => 'edit_others_administracao', 
+				'publish_posts'      => 'publish_administracao',       
+				'read_private_posts' => 'read_private_administracao', 
+				'create_posts'       => 'edit_administracao', 
+			),
+
+			//'capability_type' => array('administracao', 'administracao') 
 		) 
 
 	);
 }
-
 
 function post_type_rh(){
 	$labels = array(
@@ -104,7 +134,17 @@ function post_type_rh(){
 			'menu_icon' => 'dashicons-universal-access-alt',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-			'capability_type' => array('rh', 'rh') 
+				'capabilities' => array(
+				'edit_post'          => 'edit_rh', 
+				'read_post'          => 'read_rh', 
+				'delete_post'        => 'delete_rh', 
+				'edit_posts'         => 'edit_rh', 
+				'edit_others_posts'  => 'edit_others_rh', 
+				'publish_posts'      => 'publish_rh',       
+				'read_private_posts' => 'read_private_rh', 
+				'create_posts'       => 'edit_rh', 
+			),
+			//'capability_type' => array('rh', 'rh')
 		) 
 
 	);
@@ -124,7 +164,18 @@ function post_type_galeria(){
 			'menu_icon' => 'dashicons-format-gallery',
 			'has_archive' => true,
 			'supports' => ['title', 'thumbnail', 'excerpt'],
-			'capability_type' => array('galeria', 'galeria') 
+			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+				'capabilities' => array(
+				'edit_post'          => 'edit_galeria', 
+				'read_post'          => 'read_galeria', 
+				'delete_post'        => 'delete_galeria', 
+				'edit_posts'         => 'edit_galeria', 
+				'edit_others_posts'  => 'edit_others_galeria', 
+				'publish_posts'      => 'publish_galeria',       
+				'read_private_posts' => 'read_private_galeria', 
+				'create_posts'       => 'edit_galeria', 
+			)
+			//'capability_type' => array('galeria', 'galeria') 
 		) 
 
 	);
