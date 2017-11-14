@@ -94,7 +94,7 @@ function post_type_adm(){
 		'name' => 'Administração',
 		'singular_name' => 'Administração',
 		'add_new_item' => 'Adicionar novo informativo - Administração',
-		'add_new' => 'Adicionar novo - Administração'
+		'add_new' => 'Adicionar - Administração'
 	);
 	register_post_type( 'administracao', 
 		array(
@@ -125,7 +125,7 @@ function post_type_rh(){
 		'name' => 'Recursos Humanos',
 		'singular_name' => 'Recursos Humanos',
 		'add_new_item' => 'Adicionar novo informativo - Recursos Humanos',
-		'add_new' => 'Adicionar novo - RH'
+		'add_new' => 'Adicionar - RH'
 	);
 	register_post_type( 'rh', 
 		array(
@@ -163,7 +163,6 @@ function post_type_galeria(){
 			'public' => true,
 			'menu_icon' => 'dashicons-format-gallery',
 			'has_archive' => true,
-			'supports' => ['title', 'thumbnail', 'excerpt'],
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
 				'capabilities' => array(
 				'edit_post'          => 'edit_galeria', 
@@ -200,6 +199,7 @@ function wordpress_pagination() {
 function my_forcelogin_redirect() {
 	return site_url( '/' );
 }
+
 add_filter('v_forcelogin_redirect', 'my_forcelogin_redirect', 10, 1);
 
 add_filter('login_redirect', 'my_forcelogin_redirect', 10, 1);
@@ -210,3 +210,4 @@ add_action( 'init', 'post_type_adm');
 add_action( 'init', 'post_type_rh');
 add_action( 'init', 'post_type_galeria');
 add_theme_support( 'post-thumbnails', array('noticias', 'informatica', 'administracao', 'rh','galeria'));
+
