@@ -1359,6 +1359,13 @@ body {
 }
 /**/
 
+/*MCDOCS*/
+.mdocs-share {
+	width: 100%;
+
+}
+
+/**/
 @media screen and (max-width: 1200px) {
 	.home-post-sidebar {
 
