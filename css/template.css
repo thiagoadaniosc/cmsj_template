@@ -1247,15 +1247,116 @@ body {
 
 .dataTables_filter input {
 	outline: none;
-	border: 1px solid #A5A5A5 !important;
-	border-radius: 2px;
+	border: 1px solid #686868 !important;
+	border-radius: 0;
 	height: 30px;
 	padding-left: 5px;
+	transition: 1s;
+	background: url(../imgs/search_black.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	padding-left: 25px;
+
 }
 .dataTables_filter input:hover {
-	border: 1px solid#2F68B8A5!important;
+	border: 1px solid #919191!important;
+	box-shadow: inset 0px 0px 30px #E7E4E4;
 }
 
+.dataTables_filter input:focus {
+	border: 1px solid #919191!important;
+	box-shadow: inset 0px 0px 30px #E7E4E4;
+}
+/**/
+
+/*Search Page*/
+
+#searchform {
+	margin-bottom: 50px;
+}
+
+#searchform input[type="text"] {
+	width: 90%;
+	margin: 0px !important;
+	height: 50px;
+	padding: 5px;
+	padding-left: 20px;
+	font-size: 30px;
+	font-style: italic;
+	color: #ABABAB;
+	outline: none;
+	border: 2px solid #868686;
+	transition: 0.5s;
+}
+
+#searchform input[type="text"]:hover {
+	background-color: #484848;
+	color: #CDCDCD;
+	border: 2px transparent;
+}
+
+#searchform input[type="text"]:focus {
+	background-color: #484848;
+	color: white;
+	border: 2px transparent;
+}
+
+#searchform input[type="submit"] {
+	width: 9.5%;
+	margin: 0px !important;
+	height: 50px;
+	background-color: #484848;
+	color: white;
+	border: 2px solid #484848;
+	background-image:url(../imgs/search_white.png);
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: transparent;
+	outline: none;
+	font-size: 30px;
+	transition: 1s;
+}
+
+#searchform input[type="submit"]:hover {
+	border: 2px solid #484848;
+	background-color: white;
+	background-image:url(../imgs/search_black.png);
+
+
+}
+.screen-reader-text {
+	display: none;	
+}
+
+.search-title {
+	font-size: 25px !important;
+	letter-spacing: -2px!important;
+	font-weight: bold !important;
+	font-family: opensans,opensans-bastian,Arial,sans-serif !important;
+	--webkit-font-smoothing: antialiased;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	line-height: 15px;
+	color: #484848;
+	transition: 1s;
+	margin-top: 10px;
+
+}
+.search-title:hover {
+	color: #4670B1;
+}
+.search-excerpt {
+	color: #A1A1A1 !important;
+	font-size: 20px;
+	transition: 1s;
+	margin-top: 0 !important;
+}
+
+.search-excerpt:hover {
+	color: #272727 !important;
+}
 /**/
 
 @media screen and (max-width: 1200px) {
@@ -1328,8 +1429,8 @@ body {
 		padding-right: 20px !important;
 	}
 
-@media screen and (max-width: 768px) {
-}
+	@media screen and (max-width: 768px) {
+	}
 
 
 }

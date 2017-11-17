@@ -36,7 +36,7 @@ $i = 0;
 			<div class="col-lg-12" style="padding: 2px">
 				<div class="thumbnail col-lg-12" style="border:0; height: auto; padding: 0; margin-bottom:0;">
 					<a class="home-last-news-link" href="<?= get_post_permalink($post->ID); ?>">
-						<figure class="col-lg-12" style="height: auto; width:100%">
+						<figure class="col-lg-12" style="height: 500px; width:100%">
 
 							<span class="home-last-news-tag">
 								<?= $post_tag ?>
