@@ -1365,6 +1365,11 @@ body {
 
 }
 
+.mdocs-download-btn {
+	border: 0px !important;
+	border-radius: 0 !important; 
+}
+
 /**/
 @media screen and (max-width: 1200px) {
 	.home-post-sidebar {

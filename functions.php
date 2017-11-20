@@ -200,6 +200,25 @@ function my_forcelogin_redirect() {
 	return site_url( '/' );
 }
 
+function get_type($post_type){
+	if ($post_type == "page"){
+		return "Página";
+	} elseif ($post_type == "rh"){
+		return "Recursos Humanos";
+	} elseif ($post_type == "administracao") {
+		return "Administração";
+	} elseif($post_type == "noticias") {
+		return "Notícias";
+	} elseif ($post_type == "informatica"){
+		return "Informática";
+	} elseif ($post_type == "galeria") {
+		return "Galeria";
+	} else {
+		return "Outros";
+	}
+
+}
+
 add_filter('v_forcelogin_redirect', 'my_forcelogin_redirect', 10, 1);
 
 add_filter('login_redirect', 'my_forcelogin_redirect', 10, 1);
