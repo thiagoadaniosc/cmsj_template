@@ -6,6 +6,10 @@
 	<link rel="icon" href="<?= get_template_directory_uri(); ?>/imgs/sao-jose-icon.png" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri(); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?=  get_template_directory_uri() ?>/css/template.css">

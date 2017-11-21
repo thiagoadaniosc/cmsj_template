@@ -31,7 +31,7 @@ $search_post = $search_query->get_posts();
 
 				<?php endforeach; ?>
 			<?php else : 
-				echo "Nada foi encontrado para sua busca !";
+				echo "Nenhum resultado encontrado para a sua busca \"$search_value\".  ";
 				endif;
 			?>
 
