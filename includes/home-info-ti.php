@@ -22,6 +22,7 @@ $ti_posts = $ti_query->get_posts();
 
 		?>
 		<div class="col-lg-6 col-md-12" style="">
+			<a href="<?= get_post_permalink($post->ID); ?>">
 			<div class="thumbnail col-lg-12" style="border:0">
 				<img src="<?= $post_thumbnail_url ?>" class="col-lg-4">
 				<a class="last-info-link-ti" href="<?= get_post_permalink($post->ID); ?>">
@@ -29,6 +30,7 @@ $ti_posts = $ti_query->get_posts();
 					<p class="col-lg-8"><?= $post->post_excerpt ?></p>
 				</a>
 			</div>
+			</a>
 		</div>	
 
 	<?php endforeach; ?>
