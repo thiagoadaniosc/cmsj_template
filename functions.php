@@ -2,9 +2,6 @@
 // Theme Supports
 add_post_type_support( 'page', 'excerpt' );
 
-
-
-
 //  Registando Menus
 register_nav_menus(
 	array(
@@ -163,7 +160,7 @@ function post_type_galeria(){
 			'public' => true,
 			'menu_icon' => 'dashicons-format-gallery',
 			'has_archive' => true,
-			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+			'supports' => ['title', 'thumbnail', 'excerpt'],
 				'capabilities' => array(
 				'edit_post'          => 'edit_galeria', 
 				'read_post'          => 'read_galeria', 
