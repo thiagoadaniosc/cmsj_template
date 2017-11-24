@@ -7,6 +7,24 @@ body {
 	height: 100vh;
 }
 
+/*Style Scroll Bar*/
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+body::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #4F5459;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+		color-stop(.5, rgba(255, 255, 255, .2)),
+		color-stop(.5, transparent), to(transparent));
+}
+/**/
+
 .header	 {
 	background-color:#2E6BAC;
 	height: auto;
@@ -1375,27 +1393,27 @@ body {
 /*404*/
 .notfound-a {
 	display: inline-block;
-    width: 190px;
-    background: #FFF;
-    border: 0;
-    color: #1A1A1A;
-    border-radius: 4px;
-    padding-top: 13px;
-    padding-bottom: 12px;
-    outline: none;
-    letter-spacing: 2px;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 11px;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 30px;
-    transition: .3s;
+	width: 190px;
+	background: #FFF;
+	border: 0;
+	color: #1A1A1A;
+	border-radius: 4px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+	outline: none;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 30px;
+	transition: .3s;
 }
 .notfound-a:hover {
 	letter-spacing: 3.5px;
-    background-color: #EEE;
-    text-decoration: none;
+	background-color: #EEE;
+	text-decoration: none;
 }
 /**/
 @media screen and (max-width: 1200px) {
