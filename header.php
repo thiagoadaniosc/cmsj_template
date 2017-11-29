@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="<?=  get_template_directory_uri() ?>/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" href="<?= get_template_directory_uri() ?>/js/bootstrap.min.js"></script>
-	<title>CMSJ - INTRANET</title>
+	<title>Câmara Municipal de São José - Intranet</title>
 	<?php wp_head(); ?>
 </head>
 <body>
