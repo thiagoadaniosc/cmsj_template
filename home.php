@@ -5,7 +5,7 @@
 		<div class="home-post-content col-lg-8">
 		<?php $welcome_query = new WP_Query(array("pagename" => 'bem-vindo'));
 		$welcome_post = $welcome_query->get_posts();
-				if ($welcome_post): 
+		if ($welcome_post): 
 		?>
 			<section class="row home-welcome col-lg-12 ">
 				<h1 style="color: white; font-size: 15px;">
@@ -27,7 +27,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--></p>
 				<a href="bem-vindo" class="btn btn-success welcome-btn-more-info">Mais Informações <i class="fa fa-angle-right" style="font-size: 15px; padding-left: 10px;"></i></a>
 		
-			</section>
+		</section>
 		<?php endif; ?>
 			
 			<div class="row col-lg-12" style="">

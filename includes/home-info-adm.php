@@ -6,10 +6,11 @@ $adm_posts = $adm_query->get_posts();
 ?>
 
 <div class="row last-info-adm-title">
-	<h1 class="col-lg-10" style="">Administração
+	<h1 class="col-lg-10" style=""><a style="color:#505050" href="administracao">Administração
 		<i class="fa fa-users" style="color:#505050;""></i>
+		</a>
 	</h1>
-	<a  class="col-lg-2 text-right" href="administracao" style="margin-top: 20px">Administração <i class="fa fa-angle-right"></i></a> 
+	<!--<a  class="col-lg-2 text-right" href="administracao" style="margin-top: 20px">Administração <i class="fa fa-angle-right"></i></a> -->
 
 </div>
 

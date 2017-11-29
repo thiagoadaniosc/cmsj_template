@@ -4,10 +4,11 @@ $rh_posts = $rh_query->get_posts();
 
 ?>
 <div class="row last-info-rh-title">
-	<h1 class="col-lg-10" style="">Recursos Humanos
+	<h1 class="col-lg-10" style=""><a style="color:#505050" href="rh">Recursos Humanos
 		<i class="fa fa-users" style="color:#3267AA; color: #DF5656"></i>
+	</a>
 	</h1>
-	<a  class="col-lg-2 text-right" href="rh" style="margin-top: 20px">Mais de RH <i class="fa fa-angle-right"></i></a>
+	<!--<a  class="col-lg-2 text-right" href="rh" style="margin-top: 20px">Mais de RH <i class="fa fa-angle-right"></i></a>-->
 
 </div>
 

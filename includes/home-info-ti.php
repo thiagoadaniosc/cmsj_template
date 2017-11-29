@@ -4,10 +4,11 @@ $ti_posts = $ti_query->get_posts();
 
 ?>					
 <div class="row last-info-ti-title">
-	<h1 class="col-lg-10" style="">Informática
+	<h1 class="col-lg-10" style=""><a style="color:#505050" href="informatica">Informática
 		<i class="fa fa-code" style="color:#3C59B7; position:absolute;bottom: 0px; margin-left: 5px;"></i>
+	</a>
 	</h1>
-	<a  class="col-lg-2 text-right" href="informatica" style="margin-top: 20px">Informática <i class="fa fa-angle-right"></i></a>
+	<!-- <a  class="col-lg-2 text-right" href="informatica" style="margin-top: 20px">Informática <i class="fa fa-angle-right"></i></a>-->
 
 </div>
 
