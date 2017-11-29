@@ -131,7 +131,7 @@ function post_type_rh(){
 			'menu_icon' => 'dashicons-universal-access-alt',
 			'has_archive' => true,
 			'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-				'capabilities' => array(
+			'capabilities' => array(
 				'edit_post'          => 'edit_rh', 
 				'read_post'          => 'read_rh', 
 				'delete_post'        => 'delete_rh', 
@@ -161,7 +161,7 @@ function post_type_galeria(){
 			'menu_icon' => 'dashicons-format-gallery',
 			'has_archive' => true,
 			'supports' => ['title', 'thumbnail', 'excerpt'],
-				'capabilities' => array(
+			'capabilities' => array(
 				'edit_post'          => 'edit_galeria', 
 				'read_post'          => 'read_galeria', 
 				'delete_post'        => 'delete_galeria', 
@@ -217,8 +217,8 @@ function get_type($post_type){
 }
 
 function possibly_redirect(){ 
-   if (isset( $_GET['action'] )){  
-     if ( in_array( $_GET['action'], array('lostpassword', 'retrievepassword') ) ) {
+	if (isset( $_GET['action'] )){  
+		if ( in_array( $_GET['action'], array('lostpassword', 'retrievepassword') ) ) {
         /*echo "
 		<h2 style='text-align:center'>Esqueceu a Senha ?</h2>
         <p style='text-align: center'> Entre em contato com o setor de Tecnologia da informação pelo E-mail: <b>suporte@cmsj.sc.gov.br</b>, informando seu usuário e o problema. 
@@ -229,8 +229,21 @@ function possibly_redirect(){
         include 'lost-pw.php';
         exit;
         //wp_redirect( '/wp-login.php' ); exit;
-     }
-  }
+    }
+}
+}
+
+
+function my_custom_fonts() {
+	echo '<style>
+    #wp-admin-bar-wp-logo{
+		display: none !important;
+	}
+	#wp-admin-bar-new-post {
+		display: none !important;
+	}
+} 
+</style>';
 }
 
 add_filter('v_forcelogin_redirect', 'my_forcelogin_redirect', 10, 1);
@@ -244,3 +257,4 @@ add_action( 'init', 'post_type_rh');
 add_action( 'init', 'post_type_galeria');
 add_theme_support( 'post-thumbnails', array('noticias', 'informatica', 'administracao', 'rh','galeria'));
 add_action('init','possibly_redirect'); 
+add_action('admin_head', 'my_custom_fonts');
