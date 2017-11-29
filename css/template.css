@@ -25,6 +25,13 @@ body::-webkit-scrollbar-thumb {
 }
 /**/
 
+#wp-admin-bar-wp-logo{
+	display: none !important;
+}
+#wp-admin-bar-new-post {
+	display: none !important;
+}
+
 .header	 {
 	background-color:#2E6BAC;
 	height: auto;

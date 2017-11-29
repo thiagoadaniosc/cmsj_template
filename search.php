@@ -26,9 +26,7 @@ $search_post = $search_query->get_posts();
 							<a href="<?=get_post_permalink($post->ID);?>" style="text-decoration: none;"><h2 class="search-excerpt"><?= $post->post_excerpt;?></h2></a>
 						</div>
 					</div>
-
-
-
+					<hr width="100%">
 				<?php endforeach; ?>
 			<?php else : 
 				echo "Nenhum resultado encontrado para a sua busca \"$search_value\".  ";
