@@ -5,3 +5,10 @@ Author: Thiago Adanio Scheidt
 Author URI: https://github.com/thiagoadaniosc
 Version: 1.0
 */
+
+.header	 {
+	background-color:#2E6BAC !important;
+}
+.footer {
+	background-color: #00488d !important;
+}

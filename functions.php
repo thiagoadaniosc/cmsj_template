@@ -242,6 +242,9 @@ function my_custom_fonts() {
 	#wp-admin-bar-new-post {
 		display: none !important;
 	}
+	#wp-admin-bar-new-thc-events  {
+		display: none !important;
+	}
 } 
 </style>';
 }
