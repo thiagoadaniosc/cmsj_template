@@ -32,6 +32,10 @@ body::-webkit-scrollbar-thumb {
 	display: none !important;
 }
 
+#wp-admin-bar-new-thc-events  {
+		display: none !important;
+	}
+
 .header	 {
 	background-color:#2E6BAC;
 	height: auto;
